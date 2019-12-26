@@ -1,0 +1,9 @@
+body{
+    background-color: orange;
+}
+
+.contador{
+    width: 1rem; 
+    height: 1rem;
+    background-color: orchid;
+}

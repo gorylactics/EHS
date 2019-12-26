@@ -20,6 +20,7 @@ window.onload = function(){
 
         masUno.addEventListener('click' , function(){
             contador.innerHTML++;
+            // contador.getElementsByTagName('h1').addClass('.contador') buscar como agregar clases
             console.log('likes');
         });
        
