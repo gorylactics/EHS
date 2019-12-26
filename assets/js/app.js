@@ -17,9 +17,23 @@ window.onload = function(){
         var contador = document.querySelector('#contador');
         var masUno = document.querySelector('#botonMas');
         var menosUno = document.querySelector('#botonMenos');
+        var uno = 1;
+        var dos = 2;
+
+        masUno.addEventListener('click' , function(){
+            contador.innerHTML++;
+            console.log('likes');
+        });
+       
+        menosUno.addEventListener('click' , function(){
+            contador.innerHTML--
+            console.log('likes');
+        });
+
         
         
     };
+   
 
     likes();
 };
