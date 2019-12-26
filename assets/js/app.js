@@ -11,7 +11,7 @@ window.onload = function(){
         // fuera de la funcion y con el llamado apagado , solo al pulsar el boton
     };
         
-        // cambioTitulo();
+        cambioTitulo();
 
     function likes(){
         var contador = document.querySelector('#contador');
@@ -20,7 +20,6 @@ window.onload = function(){
 
         masUno.addEventListener('click' , function(){
             contador.innerHTML++;
-            contador.innerHTML--;
             console.log('likes');
         });
        
