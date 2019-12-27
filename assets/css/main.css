@@ -4,6 +4,11 @@ body{
 
 .cambiode{
     color: blue;
+    font-size: 3rem;
+    transition: 3s;
+    background-color: paleturquoise;
+    display: inline-block;
+    
 }
 
 .contador{
