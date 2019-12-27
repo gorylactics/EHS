@@ -2,8 +2,13 @@ body{
     background-color: orange;
 }
 
+.cambiode{
+    color: blue;
+}
+
 .contador{
     width: 1rem; 
     height: 1rem;
     background-color: orchid;
 }
+

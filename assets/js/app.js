@@ -32,7 +32,19 @@ window.onload = function(){
     };
 
     likes();
-   
+
+    function cambioFondo(){
+        var botonCambio = document.querySelector('#fondo');
+        var fondo = document.querySelector('#cambiode');
+        botonCambio.addEventListener('click', function(){
+            fondo.classList.toggle('cambiode');
+        });
+        
+      
+        console.log(cambioFondo);
+    }
+    
+    cambioFondo();
 };
 
 
