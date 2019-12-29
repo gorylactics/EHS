@@ -45,6 +45,20 @@ window.onload = function(){
     }
     
     cambioFondo();
+
+    function Megusta(){
+        var botonMeGusta = document.querySelector('#botonMeGusta');
+        var titulo = document.querySelector('#meGusta');
+        botonMeGusta.addEventListener('click' ,function(){
+          titulo.innerHTML = 'megusta';
+       
+        });
+        
+    }
+
+    Megusta();
+
+
 };
 
 
