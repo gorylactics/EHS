@@ -51,11 +51,11 @@ window.onload = function(){
         var titulo = document.querySelector('#meGusta');
         botonMeGusta.addEventListener('click' ,function(){
           
-            if(titulo != null){
+            if(titulo != undefined){
                 titulo.innerHTML = 'megusta';
-            }else if(titulo != true){
+            }else if(titulo == true){
                 titulo.innerHTML = 'nogusta';
-            }   console.log(botonMeGusta)
+            }   console.log(titulo)
         });
         
     };
