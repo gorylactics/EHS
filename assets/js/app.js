@@ -49,9 +49,10 @@ window.onload = function(){
     function Megusta(){
         var botonMeGusta = document.querySelector('#botonMeGusta');
         var titulo = document.querySelector('#meGusta');
-        contador = 1;
-        botonMeGusta.addEventListener('click' ,function(){
-          
+        var contador = 1;
+        
+            botonMeGusta.addEventListener('click' ,function(){
+                    
             if(titulo != String){
                 titulo.innerHTML = 'megusta' +' '+ contador++;
             }else if(titulo == String){
@@ -60,6 +61,21 @@ window.onload = function(){
                 alert('tomaron los dos');
             }   console.log(titulo)
         });
+
+        // if(titulo != String){
+        //     botonMeGusta.addEventListener('click', function(){
+        //         titulo.innerHTML = 'prueba 2' +' '+ contador++;
+        //     });
+        // }else if(titulo == String){
+        //     botonMeGusta.addEventListener('click' , function(){
+        //         titulo.innerHTML = 'prueba 3' +' '+ contador--;
+        //     });
+        // };
+        //      VERSION CON CONDICIONAL , MISMO RESULTADO
+        
+                
+            
+       
         
     };
     
