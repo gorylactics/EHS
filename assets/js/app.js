@@ -50,12 +50,16 @@ window.onload = function(){
         var botonMeGusta = document.querySelector('#botonMeGusta');
         var titulo = document.querySelector('#meGusta');
         botonMeGusta.addEventListener('click' ,function(){
-          titulo.innerHTML = 'megusta';
-       
+          
+            if(titulo != null){
+                titulo.innerHTML = 'megusta';
+            }else if(titulo != true){
+                titulo.innerHTML = 'nogusta';
+            }   console.log(botonMeGusta)
         });
         
-    }
-
+    };
+    
     Megusta();
 
 
