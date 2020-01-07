@@ -49,12 +49,15 @@ window.onload = function(){
     function Megusta(){
         var botonMeGusta = document.querySelector('#botonMeGusta');
         var titulo = document.querySelector('#meGusta');
+        contador = 1;
         botonMeGusta.addEventListener('click' ,function(){
           
-            if(titulo != undefined){
-                titulo.innerHTML = 'megusta';
-            }else if(titulo == true){
-                titulo.innerHTML = 'nogusta';
+            if(titulo != String){
+                titulo.innerHTML = 'megusta' +' '+ contador++;
+            }else if(titulo == String){
+                titulo.innerHTML = 'nogusta' +' '+ contador--;
+            }else{
+                alert('tomaron los dos');
             }   console.log(titulo)
         });
         
